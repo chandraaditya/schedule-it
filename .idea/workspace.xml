@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:features" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/db.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/router.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/signup/signup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/db/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/hashing/crypto/aes/aes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/hashing/encoding/base64/base64.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/hashing/util/datetime/datetime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/hashing/util/log/log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/hashing/util/pbkdf2/pbkdf2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/sessions/sessions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/error/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/signup/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/ErrorCodes" afterDir="false" />
+    <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="Login feature complete and started signup feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/login/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login/login.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/login/success.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/login/login.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/signup/signup.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/signup/signup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/signup/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,11 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fjrMaKYW7cW7KZb1tGSSphSx5o" />
@@ -73,9 +85,55 @@
       <recent name="C:\Users\Aditya\OneDrive\Desktop\GoWorkspace\scheduler\Scheduler\src\Scheduler\models\hashing" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="go build user.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Scheduler" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/models/user/user.go" />
+      <package value="Scheduler" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build user.go" />
+        <item itemvalue="Go Build.go build user.go" />
+        <item itemvalue="Go Build.go build user.go" />
+        <item itemvalue="Go Build.go build user.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="features" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login feature complete and started signup feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login feature complete and started signup feature" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="361" key="#SQL_Dialects" timestamp="1596977045720">
@@ -114,6 +172,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596742366141" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597099510973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597099510973" />
     <state x="859" y="396" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1596978967099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -126,9 +188,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="174" key="com.intellij.database.dbimport.ImportDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596987811028" />
-    <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1596988050483">
+    <state x="756" y="340" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1597099082584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596988050483" />
+    <state x="756" y="340" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597099082584" />
+    <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1597098152684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="226" y="66" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597084901013" />
+    <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597098152684" />
   </component>
 </project>

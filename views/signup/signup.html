@@ -7,12 +7,13 @@
 <body>
     <form action="/Signup" method="post">
         Signup<br>
-        <input type="text" placeholder="House Number" id="houseno" name="houseno"><br>
-        <input type="text" placeholder="Username" id="username" name="username"><br>
-        <input type="text" placeholder="Email" id="email" name="email"><br>
-        <input type="password" placeholder="Password" id="password" name="password"><br>
-        <input type="password" placeholder="Re Enter Password" id="repassword" name="repassword"><br>
+        <input type="text" placeholder="House Number" id="houseno" name="houseno" value="{{.HouseNo}}"><br>
+        <input type="text" placeholder="Name" id="name" name="name" value="{{.Name}}"><br>
+        <input type="email" placeholder="Email" id="email" name="email" value="{{.Email}}" autocomplete="email"><br>
+        <input type="password" placeholder="Password" id="password" name="password" value="" autocomplete="password"><br>
+        <input type="password" placeholder="Re Enter Password" id="repassword" name="repassword" autocomplete="password"><br>
         <input type="submit" value="Submit">
     </form>
+{{.Error}}
 </body>
 </html>

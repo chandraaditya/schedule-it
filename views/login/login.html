@@ -7,8 +7,8 @@
 <body>
     <form action="/Login" method="post">
         Login<br>
-        <input type="text" placeholder="Email" id="email" name="email"><br>
-        <input type="password" placeholder="Password" id="password" name="password"><br>
+        <input type="text" placeholder="Email" id="email" name="email" autocomplete="email"><br>
+        <input type="password" placeholder="Password" id="password" name="password" autocomplete="password"><br>
         <input type="submit" value="Submit">
     </form>
 {{.Error}}
