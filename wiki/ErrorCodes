@@ -1,0 +1,7 @@
+DB Codes Series - 1xxx
+ed1001 - db.go unable to open db
+ed1002 - db.go unable to ping db
+el1003 - login.go stuff //TODO need to add more
+el1004 - user.go sql: no rows in result set
+ea1001: error authenticating user -- login.go
+

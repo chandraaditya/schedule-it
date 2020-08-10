@@ -5,11 +5,12 @@
     <title>Login</title>
 </head>
 <body>
-{{.Name}}
     <form action="/Login" method="post">
-        <input type="text" placeholder="Username" id="username" name="username">
-        <input type="password" placeholder="Password" id="password" name="password">
+        Login<br>
+        <input type="text" placeholder="Email" id="email" name="email"><br>
+        <input type="password" placeholder="Password" id="password" name="password"><br>
         <input type="submit" value="Submit">
     </form>
+{{.Error}}
 </body>
 </html>

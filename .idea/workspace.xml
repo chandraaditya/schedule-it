@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="" />
+    <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/db.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/router.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/signup/signup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/db/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/hashing/crypto/aes/aes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/hashing/encoding/base64/base64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/hashing/util/datetime/datetime.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/hashing/util/log/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/hashing/util/pbkdf2/pbkdf2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sessions/sessions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/signup/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki/ErrorCodes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/login/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/login/success.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/login/login.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login/success.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -18,21 +50,85 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mysql.8" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aditya\OneDrive\Desktop\GoWorkspace\scheduler\Scheduler\src\Scheduler\models" />
+      <recent name="C:\Users\Aditya\OneDrive\Desktop\GoWorkspace\scheduler\Scheduler\src\Scheduler\models\hashing" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="341" y="361" key="#SQL_Dialects" timestamp="1596977045720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="341" y="361" key="#SQL_Dialects/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596977045719" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596921614960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596921614960" />
+    <state x="716" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596927030014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="716" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927030014" />
+    <state x="743" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1597061073618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="226" key="#com.intellij.ide.util.MemberChooser/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597061073618" />
+    <state width="1293" height="280" key="GridCell.Tab.0.bottom" timestamp="1596981002378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="280" key="GridCell.Tab.0.bottom/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596981002378" />
+    <state width="1293" height="280" key="GridCell.Tab.0.center" timestamp="1596981002377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="280" key="GridCell.Tab.0.center/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596981002377" />
+    <state width="1293" height="280" key="GridCell.Tab.0.left" timestamp="1596981002377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="280" key="GridCell.Tab.0.left/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596981002377" />
+    <state width="1293" height="280" key="GridCell.Tab.0.right" timestamp="1596981002378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="280" key="GridCell.Tab.0.right/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596981002378" />
     <state x="461" y="150" key="SettingsEditor" timestamp="1596742366141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596742366141" />
+    <state x="859" y="396" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1596978967099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="396" key="com.intellij.database.actions.DdlActions$CreateObject$1/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596978967099" />
+    <state x="842" y="408" width="316" height="248" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1596912538637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="408" width="316" height="248" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596912538637" />
+    <state x="540" y="174" key="com.intellij.database.dbimport.ImportDialog" timestamp="1596987811028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="174" key="com.intellij.database.dbimport.ImportDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596987811028" />
+    <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1596988050483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596988050483" />
   </component>
 </project>

@@ -1,6 +1,8 @@
 package main
 
 import (
+	_ "Scheduler/models/db"
+	_ "Scheduler/models/sessions"
 	_ "Scheduler/routers"
 	"github.com/astaxie/beego"
 )
@@ -8,4 +10,3 @@ import (
 func main() {
 	beego.Run()
 }
-
