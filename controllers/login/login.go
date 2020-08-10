@@ -24,7 +24,7 @@ func (c *Login) Post() {
 	log.Println("entered data:", User.Email, User.PlainPass)
 
 	err := User.Authenticate()
-	if err != nil {
+	if err != nil || sessions.Err != nil {
 		if err.Error() == "ea1001: error authenticating User" || err.Error() == "el1004" {
 			c.Data["Error"] = "Please check your login details."
 			c.TplName = "login/login.html"
