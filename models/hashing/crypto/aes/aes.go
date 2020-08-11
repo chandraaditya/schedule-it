@@ -1,14 +1,13 @@
 package aes
 
 import (
+	"Scheduler/models/hashing/encoding/base64"
+	"Scheduler/models/hashing/util/log"
 	"bytes"
 	"crypto/aes"
 	"crypto/rand"
 	"errors"
 	"fmt"
-
-	"tk.com/encoding/base64"
-	"tk.com/util/log"
 )
 
 func Generate(len int) (key []byte, err error) {

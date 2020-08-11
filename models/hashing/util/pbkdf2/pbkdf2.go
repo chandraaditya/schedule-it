@@ -1,11 +1,10 @@
 package pbkdf2
 
 import (
+	"Scheduler/models/hashing/crypto/aes"
 	"bytes"
-	"crypto/pbkdf2"
 	"crypto/sha256"
-
-	"tk.com/crypto/aes"
+	"golang.org/x/crypto/pbkdf2"
 )
 
 type Pbkdf2 struct {

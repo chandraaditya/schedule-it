@@ -1,9 +1,8 @@
 package log
 
 import (
+	"Scheduler/models/hashing/util/datetime"
 	"fmt"
-
-	"tk.com/util/datetime"
 )
 
 var (

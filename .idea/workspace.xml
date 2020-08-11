@@ -20,18 +20,20 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:features" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="Login feature complete and started signup feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/login/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login/login.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/signup/signup.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/signup/signup.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/signup/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/scheduleit.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scheduleit.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/appointments/appointments.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/appointments/appointments.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hashing/crypto/aes/aes.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/crypto/aes/aes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hashing/encoding/base64/base64.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/encoding/base64/base64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hashing/util/log/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/util/log/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hashing/util/pbkdf2/pbkdf2.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/util/pbkdf2/pbkdf2.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +43,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.6/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -62,7 +64,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;mysql.8" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql.8&#10;mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -119,7 +122,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="features" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -130,19 +133,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login feature complete and started signup feature" />
     <option name="LAST_COMMIT_MESSAGE" value="Login feature complete and started signup feature" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="361" key="#SQL_Dialects" timestamp="1596977045720">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="632" y="462" key="#GOROOT" timestamp="1597138301862">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="632" y="462" key="#GOROOT/0.0.1680.1050@0.0.1680.1050" timestamp="1597138301862" />
+    <state x="298" y="364" key="#SQL_Dialects" timestamp="1597170957429">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="298" y="364" key="#SQL_Dialects/0.0.1680.1050@0.0.1680.1050" timestamp="1597170957429" />
     <state x="341" y="361" key="#SQL_Dialects/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596977045719" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596921614960">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="868" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597139488437">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="868" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597139488437" />
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596921614960" />
     <state x="716" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596927030014">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -192,10 +202,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="340" width="408" height="356" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597099082584" />
-    <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1597098152684">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="275" y="135" width="896" height="699" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1597175243977">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="275" y="135" width="896" height="699" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597175243977" />
     <state x="226" y="66" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597084901013" />
     <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597098152684" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597173897023">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597173897023" />
   </component>
 </project>

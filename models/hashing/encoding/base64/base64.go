@@ -1,10 +1,9 @@
 package base64
 
 import (
+	"Scheduler/models/hashing/util/log"
 	"encoding/base64"
 	"errors"
-
-	"tk.com/util/log"
 )
 
 func Encode(in []byte) (out []byte, err error) {
