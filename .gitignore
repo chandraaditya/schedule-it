@@ -60,7 +60,7 @@ $RECYCLE.BIN/
 *.dll
 *.so
 *.dylib
-
+trial.go
 # Test binary, built with `go test -c`
 *.test
 
@@ -69,4 +69,5 @@ $RECYCLE.BIN/
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+.idea
 

@@ -25,15 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="Login feature complete and started signup feature">
+    <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="GetAppointments">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Scheduler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scheduler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/scheduleit.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/scheduleit.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/appointments/appointments.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/appointments/appointments.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hashing/crypto/aes/aes.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/crypto/aes/aes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hashing/encoding/base64/base64.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/encoding/base64/base64.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hashing/util/log/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/util/log/log.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hashing/util/pbkdf2/pbkdf2.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hashing/util/pbkdf2/pbkdf2.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +63,7 @@
     <property name="DatabaseDriversLRU" value="mysql.8&#10;mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
@@ -137,7 +133,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login feature complete and started signup feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login feature complete and started signup feature" />
+    <MESSAGE value="GetAppointments" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetAppointments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="632" y="462" key="#GOROOT" timestamp="1597138301862">
@@ -158,9 +155,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596927030014" />
-    <state x="743" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1597061073618">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="650" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1597336408750">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="650" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1597336408750" />
     <state x="743" y="226" key="#com.intellij.ide.util.MemberChooser/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597061073618" />
     <state width="1293" height="280" key="GridCell.Tab.0.bottom" timestamp="1596981002378">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -178,13 +176,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="280" key="GridCell.Tab.0.right/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596981002378" />
-    <state x="461" y="150" key="SettingsEditor" timestamp="1596742366141">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="403" y="151" key="SettingsEditor" timestamp="1597177239254">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="403" y="151" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1597177239254" />
     <state x="461" y="150" key="SettingsEditor/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596742366141" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597099510973">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="483" y="254" key="Vcs.Push.Dialog.v2" timestamp="1597176866520">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="483" y="254" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1597176866520" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597099510973" />
     <state x="859" y="396" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1596978967099">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -208,9 +208,9 @@
     <state x="275" y="135" width="896" height="699" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597175243977" />
     <state x="226" y="66" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597084901013" />
     <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597098152684" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597173897023">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597339164999">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597173897023" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597339164999" />
   </component>
 </project>
