@@ -183,3 +183,22 @@ func Hash(Plain string) (Hash string, err error) {
 	Hash = string(out)
 	return
 }
+
+func FindTimeSlots(appointmentDuration time.Duration, minimumDuration time.Duration, currentOccupancy[] int, maximumOccupancy int) (possibleTimes[] time.Time){
+	var count int
+	var divisions int = int(appointmentDuration) / int(minimumDuration)
+	Time, _ := time.Parse(time.Kitchen, "7:00AM")
+	for i := 0; i < len(currentOccupancy) - divisions; i++ {
+		count = 0
+		for j := i; j < i + divisions; j++ {
+			if currentOccupancy[j] <= maximumOccupancy {
+				count++
+			}
+			if count == divisions{
+				x := time.Minute * (minimumDuration * time.Duration(i))
+				possibleTimes = append(possibleTimes, Time.Add(x))
+			}
+		}
+	}
+	return
+}

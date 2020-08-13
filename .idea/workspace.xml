@@ -27,8 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="975f2f93-2233-4e47-8ad8-8055ad236557" name="Default Changelist" comment="GetAppointments">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Scheduler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scheduler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user/user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
+    <property name="add_unversioned_files" value="true&#10;/Users/avibhatnagar/GolandProjects/scheduler/Scheduler/src/Scheduler/trial.go" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
@@ -208,9 +208,9 @@
     <state x="275" y="135" width="896" height="699" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597175243977" />
     <state x="226" y="66" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597084901013" />
     <state x="226" y="66" width="1038" height="828" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.625.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597098152684" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597339164999">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597348883080">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597339164999" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597348883080" />
   </component>
 </project>
