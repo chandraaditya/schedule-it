@@ -61,6 +61,7 @@ $RECYCLE.BIN/
 *.so
 *.dylib
 trial.go
+*.xml
 # Test binary, built with `go test -c`
 *.test
 

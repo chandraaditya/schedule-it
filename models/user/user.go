@@ -191,7 +191,10 @@ func FindTimeSlots(appointmentDuration time.Duration, minimumDuration time.Durat
 	for i := 0; i < len(currentOccupancy) - divisions; i++ {
 		count = 0
 		for j := i; j < i + divisions; j++ {
-			if currentOccupancy[j] <= maximumOccupancy {
+			if currentOccupancy[j] >= maximumOccupancy {
+				break
+			}
+			if currentOccupancy[j] < maximumOccupancy {
 				count++
 			}
 			if count == divisions{
